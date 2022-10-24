@@ -16,8 +16,8 @@ To run RRT*, use rrt_solver.solve_star() in the main function
 
 3. DQN \
 The DQN algorithm is implemented in the notebook called ‘DQN.ipynb’. Please follow the steps below to run it. \
-* First make sure the notebook file is in the same directory as the image ‘simplified_map.jpg’. 
-* Then, choose the test map to run the DQN in ‘Generate different map’ section, which includes random map and simplified grid world map of 4th floor in Levine Hall
-* Last, initialize the running environment with map name and specified start and goal location by entering the coordinate of both locations. NOTE: The coordinate origin for start and goal is located at the bottom left corner of the map with x-axis pointing rightward and y-axis pointing upward. Then you can run the main function. \
+First make sure the notebook file is in the same directory as the image ‘simplified_map.jpg’. 
+Then, choose the test map to run the DQN in ‘Generate different map’ section, which includes random map and simplified grid world map of 4th floor in Levine Hall \
+Last, initialize the running environment with map name and specified start and goal location by entering the coordinate of both locations. NOTE: The coordinate origin for start and goal is located at the bottom left corner of the map with x-axis pointing rightward and y-axis pointing upward. Then you can run the main function. \
 The ‘DQN_mapPreprocess.ipynb’ file is used to pre-process the configuration map of 4th floor in Levine Hall to develop a simplified grid world consisting of 1 and 0 2D arrays for the ease of running DQN algorithm.
 
